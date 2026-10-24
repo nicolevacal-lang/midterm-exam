@@ -1,22 +1,33 @@
 Exam Questionnaire and Answer
+    
     Vacal, Nicole T. BSIT 3A
 
 1.  What is the primary operation difference between git fetch and git pull?
-Answer:
+Answer:git fetch downloads remote changes without modofying it while get pull download changes and imidialately merge in into you current
 
 2. You have uncommitted changes in your working directory and need to temporarily switch to another branch. Which workflow prevents Git from blocking the checkout due to file overwrites?
-Answer:
+Answer:git stash
 
 3. When executing a git merge-no-fit-ff command, whatspecific behavior is enforced by Git?
-Answer:
+Answer:force git to create a merge
 
 4. What happens when you check out a specific commit hash directly (e.g., git checkout alb2c3d) insted of a branch name?
-Answer:
+Answer:detached HEAD state
 
 5. You need to apply a specific bug-fix commit from a development branch onto a stable release branch without merging the entire branch history. Which command should you use?
-Answer:
+Answer:git cheery-pick <commit-hash>
 
 6.After performing a destructive git reset-hard operation you realize you lost recent commits that were not on anybrach. Which utility can retrieve these danging commits?
-Answer:
+Answer:git reflog
 
-7. Y
+7. You wnat to remove untracked files and directories from your working tree, incliuding ignored files listed in .gitignore. Which command flag combination achives this?
+Answer:git clean -fdx
+
+8. You need to undo a public commit thatr has already  been pushed to a shared remote resposiory  without  altering the existing commit history od distrupting collaboratory command is appropriate?
+Answer:git revert <commit-hash>
+
+9. You wnat to identify the specific commit that introduced a regression bug in a codebase with hundreds of historical commits. Whish utility automates this binary search process?
+Answer:git bisect
+
+10. What is the function of the-amed flag when used with git commit?
+Answer: modifies the most recent commit
