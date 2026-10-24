@@ -1,0 +1,22 @@
+Exam Questionnaire and Answer
+    Vacal, Nicole T. BSIT 3A
+
+1.  What is the primary operation difference between git fetch and git pull?
+Answer:
+
+2. You have uncommitted changes in your working directory and need to temporarily switch to another branch. Which workflow prevents Git from blocking the checkout due to file overwrites?
+Answer:
+
+3. When executing a git merge-no-fit-ff command, whatspecific behavior is enforced by Git?
+Answer:
+
+4. What happens when you check out a specific commit hash directly (e.g., git checkout alb2c3d) insted of a branch name?
+Answer:
+
+5. You need to apply a specific bug-fix commit from a development branch onto a stable release branch without merging the entire branch history. Which command should you use?
+Answer:
+
+6.After performing a destructive git reset-hard operation you realize you lost recent commits that were not on anybrach. Which utility can retrieve these danging commits?
+Answer:
+
+7. Y
